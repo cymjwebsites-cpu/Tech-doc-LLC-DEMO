@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Doc LLC | Appliance Repair</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f9fb;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+font-weight:500;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:56px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#0ea5e9;
+padding:14px 32px;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+font-size:38px;
+margin-bottom:25px;
+text-align:center;
+}
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+}
+
+.tabs{
+display:flex;
+justify-content:center;
+margin-bottom:40px;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.tab{
+padding:12px 28px;
+background:#e2e8f0;
+border-radius:30px;
+font-weight:600;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0284c7;
+}
+
+.review{
+background:white;
+padding:25px;
+border-left:5px solid #0284c7;
+margin-bottom:20px;
+border-radius:8px;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Tech Doc LLC</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#whatwedo">What We Do</a>
+<a href="#services">Services</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Fast & Reliable Appliance Repair</h1>
+
+<p>Professional appliance repair for homes throughout San Diego.</p>
+
+<a class="btn" href="#contact">Call Now</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<div class="about">
+
+<p>
+
+Tech Doc LLC provides dependable appliance repair services with fast response times,
+honest pricing, and quality workmanship. Whether your refrigerator isn't cooling,
+your washer won't spin, or your oven won't heat, our experienced technicians are
+ready to help.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="whatwedo">
+
+<h2>What We Do</h2>
+
+<div class="tabs">
+
+<div class="tab">Residential Appliance Repair</div>
+<div class="tab">Diagnostics</div>
+<div class="tab">Maintenance</div>
+<div class="tab">Emergency Repairs</div>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Kitchen Appliances</h3>
+<p>
+We repair refrigerators, freezers, dishwashers, ovens, stoves,
+cooktops, microwaves, garbage disposals, ice makers and wine coolers.
+</p>
+</div>
+
+<div class="card">
+<h3>Laundry Appliances</h3>
+<p>
+Washer, dryer, and stacked washer/dryer repairs for all major brands.
+</p>
+</div>
+
+<div class="card">
+<h3>Professional Diagnostics</h3>
+<p>
+We accurately diagnose appliance issues and recommend cost-effective repairs.
+</p>
+</div>
+
+<div class="card">
+<h3>Fast Service</h3>
+<p>
+Quick scheduling and reliable repairs designed to get your appliances back up and running.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="grid">
+
+<div class="card">Dishwasher Repair</div>
+<div class="card">Dryer Repair</div>
+<div class="card">Refrigerator Repair</div>
+<div class="card">Refrigerator / Freezer Repair</div>
+<div class="card">Freezer Repair</div>
+<div class="card">Washer Repair</div>
+<div class="card">Washer & Dryer Repair</div>
+<div class="card">Microwave Repair</div>
+<div class="card">Oven Repair</div>
+<div class="card">Stove & Cooktop Repair</div>
+<div class="card">Stove, Cooktop & Oven Repair</div>
+<div class="card">Garbage Disposal Repair</div>
+<div class="card">Ice Maker Repair</div>
+<div class="card">Wine Cooler Repair</div>
+
+</div>
+
+</section>
+
+<section id="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+
+★★★★★
+
+<p><strong>"They repaired my refrigerator very quickly and at a great price."</strong></p>
+
+</div>
+
+<div class="review">
+
+★★★★★
+
+<p><strong>"Excellent fast and quality service."</strong></p>
+
+</div>
+
+<div class="review">
+
+⭐⭐⭐⭐☆ Overall Google Rating: <strong>4.3 / 5</strong> (36 Reviews)
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p><strong>Tech Doc LLC</strong></p>
+
+<p>3380 Daley Center Dr Apt 1915</p>
+
+<p>San Diego, CA 92123</p>
+
+<br>
+
+<p><strong>Phone:</strong> (619) 942-0369</p>
+
+<br>
+
+<a class="btn" href="tel:+16199420369">Call (619) 942-0369</a>
+
+</section>
+
+<footer>
+
+© 2025 Tech Doc LLC • Appliance Repair Services
+
+</footer>
+
+</body>
+</html>
